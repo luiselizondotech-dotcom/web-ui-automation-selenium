@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+chromedriver.exe
+reports/
+*.html
+!.gitignore
