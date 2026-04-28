@@ -11,6 +11,7 @@ class LoginPage(BasePage):
 
     def open(self):
         self.driver.get(self.URL)
+        return self
 
     def login(self, username, password):
         self.type(self.USERNAME, username)
